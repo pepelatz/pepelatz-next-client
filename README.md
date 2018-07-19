@@ -19,3 +19,7 @@ Tutorial: [https://nextjs.org/learn/basics/getting-started](https://nextjs.org/l
 Server-koa: [https://github.com/zeit/next.js/tree/canary/examples/custom-server-koa](https://github.com/zeit/next.js/tree/canary/examples/custom-server-koa)
 
 Next-sass: [https://github.com/zeit/next.js/tree/canary/examples/with-next-sass](https://github.com/zeit/next.js/tree/canary/examples/with-next-sass)
+
+## Видео 4
+
+Next-redux: [https://github.com/zeit/next.js/tree/canary/examples/with-redux-wrapper](https://github.com/zeit/next.js/tree/canary/examples/with-redux-wrapper)
