@@ -23,3 +23,7 @@ Next-sass: [https://github.com/zeit/next.js/tree/canary/examples/with-next-sass]
 ## Видео 4
 
 Next-redux: [https://github.com/zeit/next.js/tree/canary/examples/with-redux-wrapper](https://github.com/zeit/next.js/tree/canary/examples/with-redux-wrapper)
+
+## Видео 5
+
+With-apollo: [https://github.com/zeit/next.js/tree/canary/examples/with-apollo](https://github.com/zeit/next.js/tree/canary/examples/with-apollo)
