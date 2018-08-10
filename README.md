@@ -27,3 +27,7 @@ Next-redux: [https://github.com/zeit/next.js/tree/canary/examples/with-redux-wra
 ## Видео 5
 
 With-apollo: [https://github.com/zeit/next.js/tree/canary/examples/with-apollo](https://github.com/zeit/next.js/tree/canary/examples/with-apollo)
+
+## Видео 7
+
+Type-scale: [https://type-scale.com](https://type-scale.com)
