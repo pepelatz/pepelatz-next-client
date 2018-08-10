@@ -1,5 +1,33 @@
 @import '../styles/global';
 
+@import '../styles/reset';
+@import '../styles/typography';
+@import '../styles/links';
+@import '../styles/grid';
+
+html {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
 body {
-  background-color: $color;
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+  color: $blackColor;
+  background-color: lighten($blackColor, 77);
+  padding-top: $headerHeight + $freeSpace;
+}
+
+#__next {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }

@@ -1,0 +1,19 @@
+@import '../styles/global';
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: $headerHeight;
+  background-color: $whiteColor;
+  z-index: 1000;
+
+  .container {
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+  }
+}
