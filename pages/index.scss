@@ -1,33 +1,14 @@
 @import '../styles/global';
 
-@import '../styles/reset';
-@import '../styles/typography';
-@import '../styles/links';
-@import '../styles/grid';
-
-html {
+.index {
   display: flex;
   flex-direction: column;
-  min-height: 100%;
-}
 
-body {
-  display: flex;
-  flex-direction: column;
-  flex: auto;
-  color: $blackColor;
-  background-color: lighten($blackColor, 77);
-  padding-top: $headerHeight + $freeSpace;
-}
-
-#__next {
-  flex: auto;
-  display: flex;
-  flex-direction: column;
-}
-
-.main {
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
+  .post {
+    background-color: $whiteColor;
+    margin-bottom: $freeSpace;
+    padding: $freeSpace;
+    min-height: 120px;
+    border: 1px solid lighten($blackColor, 77);
+  }
 }
