@@ -31,3 +31,7 @@ With-apollo: [https://github.com/zeit/next.js/tree/canary/examples/with-apollo](
 ## Видео 7
 
 Type-scale: [https://type-scale.com](https://type-scale.com)
+
+## Видео 8
+
+## Видео 9

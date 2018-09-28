@@ -8,3 +8,9 @@ export const logIn = me => ({
 export const logOut = () => ({
   type: LOGOUT
 });
+
+// app
+export const TOGGLEAUTHPOPUP = 'TOGGLEAUTHPOPUP';
+export const toggleAuthPopup = () => ({
+  type: TOGGLEAUTHPOPUP
+});

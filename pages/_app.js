@@ -31,7 +31,7 @@ export default withApollo(
               <Provider store={store}>
                 <Fragment>
                   <Header />
-                  <div className="main">
+                  <div className="main container">
                     <Component {...pageProps} />
                     <Sidebar />
                   </div>

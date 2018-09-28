@@ -12,8 +12,42 @@
   z-index: 1000;
 
   .container {
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex: 1;
+    padding-left: $freeSpace;
+    padding-right: $freeSpace;
+
+    .logo {
+      font-size: 20px;
+      padding: 0;
+      margin: 0;
+      font-weight: bold;
+    }
+
+    .menu {
+      display: flex;
+      list-style: none;
+      align-items: center;
+
+      & > li {
+        display: flex;
+        margin-left: $freeSpace * 2;
+        font-size: 0.9em;
+
+        & > a,
+        & > span {
+          cursor: pointer;
+          color: $primaryColor;
+
+          &.is-active,
+          &:hover {
+            text-decoration: none;
+            color: darken($primaryColor, 20);
+            transition: color 100ms linear;
+          }
+        }
+      }
+    }
   }
 }
